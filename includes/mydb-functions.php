@@ -80,7 +80,12 @@ $mydb = new database; // here I create an object based on database class
 								//	var_dump($row);   // fetching array test
 									//} 
 
+// chart-data 
 
+$records = $mydb->query("SELECT ID, `date`,`category`, `tax_name`, `pre_tax` from lot_details order by `date` ");
+
+  
+$category = $mydb->query("UPDATE lot_details set cat_id =1 where category='Construction' ");
 
 
 ?>
