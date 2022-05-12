@@ -1,20 +1,20 @@
 <?php 
 include('../includes/mydb-functions.php');
-header('Content-Type:  Application/json');
+
 ?>
 
 
 <?php
-
+            
     
-        $data = array ();
+        $data = array ();       
         foreach ($records as $row){
             $data[] = $row;
         }
 
 
       
-
+// this page displays chart data in json format
         print json_encode($data);
 
 ?>

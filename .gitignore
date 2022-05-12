@@ -1,5 +1,6 @@
 /includes/functions.php
 /includes/class_mysql.php
-/includes/config.php
 /includes/class_mysql.php
+/includes/env.php
+/includes/config.php
 .env

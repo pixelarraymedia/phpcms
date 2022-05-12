@@ -1,8 +1,10 @@
 <?php
-require("config.php");
+require 'config.php';
+
 
 class database
-{
+{	
+
 	public $dbhost, $dbuser, $dbpass, $dbname, $dblink;
 	
 	public function setup($host, $user, $pass, $name) // this function is for setting up required parameter to be able to connect database and use it
