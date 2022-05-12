@@ -1,3 +1,5 @@
 /includes/functions.php
 /includes/class_mysql.php
+/includes/config.php
+/includes/class_mysql.php
 .env
